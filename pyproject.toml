@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "adc12pem"
+version = "1.0.0"
+description = "Analysis code for the ADC12/Cu/CNT PEMFC bipolar-plate study"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Giriraj Mannayee" }]
+dependencies = ["numpy", "scipy", "pandas", "matplotlib", "scikit-learn"]
+
+[project.optional-dependencies]
+dev = ["pytest"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

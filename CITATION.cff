@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite it and the associated article."
+title: "Data and code for: Cu-CNT hybrid ADC12 aluminium for PEMFC bipolar plates with factorial assessment of corrosion, contact resistance and conductivity"
+type: software
+version: 1.0.0
+date-released: 2026-10-26
+license: MIT
+authors:
+  - family-names: Mannayee
+    given-names: Giriraj
+    affiliation: "Department of Design and Automation, Vellore Institute of Technology (VIT), Vellore, India"
+repository-code: "https://github.com/<USER>/<REPO>"
+keywords: [PEM fuel cell, bipolar plate, ADC12, carbon nanotube, EIS, interfacial contact resistance, Bayesian optimisation]
+# doi: add the Zenodo DOI after the first release

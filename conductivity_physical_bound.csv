@@ -1,0 +1,8 @@
+quantity,value
+"Cu volume fraction (%) [assumed rho_Cu=8.96, rho_ADC12=2.74 g/cm3]",1.7810486650948416
+CNT volume fraction (%) [assumed rho_CNT=1.75 g/cm3],1.1358146647152871
+Wiener upper bound sigma (MS/m) for S4,18.478789851062192
+Bound relative to S1 (%),9.992796732513053
+Measured S4 sigma (MS/m),24.6
+Measured S4 relative to S1 (%),46.428571428571445
+Measured S4 minus bound (MS/m),6.121210148937809

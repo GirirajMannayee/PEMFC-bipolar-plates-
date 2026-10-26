@@ -1,0 +1,29 @@
+{
+  "dataset_origin": "SYNTHETIC_DEMO",
+  "n_candidates": 16384,
+  "n_pareto": 30,
+  "n_dominating_S4_all_four": 1077,
+  "n_pareto_dominating_S4": 30,
+  "hv_max": 1.2155062500000002,
+  "hv_start_after_12": 0.9638986619452115,
+  "hv_parego_final_mean": 1.2124447339323963,
+  "hv_parego_final_sd": 0.0017339595918712633,
+  "hv_random_final_mean": 1.0359547044203827,
+  "hv_random_final_sd": 0.06625327163439476,
+  "parego_pct_of_max": 99.74812831545671,
+  "n_seeds": 6,
+  "seeds": [
+    42,
+    43,
+    44,
+    45,
+    46,
+    47
+  ],
+  "environment": {
+    "python": "3.12.3",
+    "numpy": "2.4.4",
+    "scipy": "1.17.1",
+    "sklearn": "1.8.0"
+  }
+}

@@ -1,0 +1,131 @@
+id,description,computed,reported,tolerance,passed
+C01,S4 batch mass total (g),1281.0,1281.0,0.0,True
+C02,S4 ADC12 wt.%,93.6768149882904,93.68,0.01,True
+C03,S4 Cu wt.%,5.620608899297424,5.62,0.01,True
+C04,S4 CNT wt.%,0.702576112412178,0.7,0.01,True
+C05,Table 1 row sums = 100 (max deviation),1.4210854715202004e-14,0.0,0.011,True
+A01,sigma one-way F,139.09677419354838,139.1,0.1,True
+A02,sigma eta^2,0.9811893203883495,0.981,0.001,True
+A03,hardness one-way F,38.03225806451613,38.0,0.1,True
+A04,hardness eta^2,0.9344782034346103,0.934,0.001,True
+A05,ln Rct one-way F,70.25470239202129,70.3,0.1,True
+A06,ln Rct eta^2,0.9634309297659991,0.963,0.001,True
+A07,ln Icorr one-way F,63.220799953554454,63.2,0.1,True
+A08,ln Icorr eta^2,0.9595269509747966,0.96,0.001,True
+A09,"Tukey min. resolvable difference, sigma (MS/m)",1.2607672450329541,1.3,0.1,True
+A10,"Tukey min. resolvable difference, hardness (HV)",7.27904308305239,7.0,0.5,True
+A11,"Tukey min. resolvable difference, Rct (kOhm cm2)",0.5133760803832782,0.51,0.01,True
+P01,"Rct S4 vs S1, % (EIS series)",129.1208791208791,129.0,1.0,True
+P02,"Icorr S4 vs S1, %",-59.916492693110655,-60.0,1.0,True
+P03,"ICR(1.4 MPa) S4 vs S1, %",-68.73239436619718,-69.0,1.0,True
+P04,"sigma S4 vs S1, %",46.428571428571445,46.0,1.0,True
+P05,"hardness S4 vs S1, %",26.086956521739136,26.0,1.0,True
+P06,"Rct S4 vs S1 at 25 C (temperature series), %",124.32432432432434,124.0,1.0,True
+P07,"Rct S4 vs S1 at 80 C (temperature series), %",28.205128205128194,28.0,1.0,True
+P08,DOE ICR target / S4 ICR (x lower),9.009009009009008,9.0,0.5,True
+P09,sigma in 1e5 S/cm (S4),2.46,2.46,0.005,True
+P10,S4 %IACS,42.41379310344828,42.0,0.5,True
+P11,S4 ICR on two-interface basis (mOhm cm2),2.22,2.2,0.05,True
+P12,Additive sigma prediction 16.8+3.9+2.3,23.0,23.0,1e-09,True
+F-sigma_MS_per_m-cu,sigma_MS_per_m: cu effect,4.699999999999999,4.7,0.06,True
+F-sigma_MS_per_m-cu-lo,sigma_MS_per_m: cu CI lower,4.058035617773578,4.06,0.09,True
+F-sigma_MS_per_m-cu-hi,sigma_MS_per_m: cu CI upper,5.34196438222642,5.34,0.09,True
+F-sigma_MS_per_m-cnt,sigma_MS_per_m: cnt effect,3.1000000000000014,3.1,0.06,True
+F-sigma_MS_per_m-cnt-lo,sigma_MS_per_m: cnt CI lower,2.4580356177735805,2.46,0.09,True
+F-sigma_MS_per_m-cnt-hi,sigma_MS_per_m: cnt CI upper,3.7419643822264224,3.74,0.09,True
+F-sigma_MS_per_m-interaction,sigma_MS_per_m: interaction effect,1.6000000000000014,1.6,0.06,True
+F-sigma_MS_per_m-interaction-lo,sigma_MS_per_m: interaction CI lower,0.31607123554715955,0.32,0.09,True
+F-sigma_MS_per_m-interaction-hi,sigma_MS_per_m: interaction CI upper,2.8839287644528433,2.88,0.09,True
+F-sigma_MS_per_m-eta2,sigma_MS_per_m: eta^2,0.9811893203883495,0.98,0.006,True
+F-hardness_HV-cu,hardness_HV: cu effect,13.5,13.5,0.06,True
+F-hardness_HV-cu-lo,hardness_HV: cu CI lower,9.79361691111424,9.8,0.09,True
+F-hardness_HV-cu-hi,hardness_HV: cu CI upper,17.206383088885758,17.2,0.09,True
+F-hardness_HV-cnt,hardness_HV: cnt effect,10.5,10.5,0.06,True
+F-hardness_HV-cnt-lo,hardness_HV: cnt CI lower,6.79361691111424,6.8,0.09,True
+F-hardness_HV-cnt-hi,hardness_HV: cnt CI upper,14.20638308888576,14.2,0.09,True
+F-hardness_HV-interaction,hardness_HV: interaction effect,3.0,3.0,0.06,True
+F-hardness_HV-interaction-lo,hardness_HV: interaction CI lower,-4.412766177771519,-4.4,0.09,True
+F-hardness_HV-interaction-hi,hardness_HV: interaction CI upper,10.41276617777152,10.4,0.09,True
+F-hardness_HV-eta2,hardness_HV: eta^2,0.9344782034346103,0.93,0.006,True
+F-Rct-cu,Rct: cu effect,1.5620462806350284,1.56,0.011,True
+F-Rct-cu-lo,Rct: cu CI lower,1.4188166923430432,1.42,0.0165,True
+F-Rct-cu-hi,Rct: cu CI upper,1.719734900226126,1.72,0.0165,True
+F-Rct-cnt,Rct: cnt effect,1.4667995562060634,1.47,0.011,True
+F-Rct-cnt-lo,Rct: cnt CI lower,1.3323034793952968,1.33,0.0165,True
+F-Rct-cnt-hi,Rct: cnt CI upper,1.6148730160659965,1.61,0.0165,True
+F-Rct-interaction,Rct: interaction effect,1.3355506282335552,1.34,0.011,True
+F-Rct-interaction-lo,Rct: interaction CI lower,1.1018567597586393,1.1,0.0165,True
+F-Rct-interaction-hi,Rct: interaction CI upper,1.6188088558496119,1.62,0.0165,True
+F-Rct-eta2,Rct: eta^2,0.9634309297659991,0.96,0.006,True
+F-Icorr-cu,Icorr: cu effect,0.6099648927495945,0.61,0.011,True
+F-Icorr-cu-lo,Icorr: cu CI lower,0.5440414834799406,0.54,0.0165,True
+F-Icorr-cu-hi,Icorr: cu CI upper,0.6838764720792517,0.68,0.0165,True
+F-Icorr-cnt,Icorr: cnt effect,0.6571444977136514,0.66,0.011,True
+F-Icorr-cnt-lo,Icorr: cnt CI lower,0.5861220402131956,0.59,0.0165,True
+F-Icorr-cnt-hi,Icorr: cnt CI upper,0.7367729947815141,0.74,0.0165,True
+F-Icorr-interaction,Icorr: interaction effect,0.6514237144071399,0.65,0.011,True
+F-Icorr-interaction-lo,Icorr: interaction CI lower,0.5182244724439113,0.52,0.0165,True
+F-Icorr-interaction-hi,Icorr: interaction CI upper,0.8188591590257706,0.82,0.0165,True
+F-Icorr-eta2,Icorr: eta^2,0.9595269509747966,0.96,0.006,True
+F-ICR_1p0MPa-cu,ICR_1p0MPa: cu effect,0.5841966210066873,0.58,0.011,True
+F-ICR_1p0MPa-cu-lo,ICR_1p0MPa: cu CI lower,0.5467039075920679,0.55,0.0165,True
+F-ICR_1p0MPa-cu-hi,ICR_1p0MPa: cu CI upper,0.6242605682092309,0.62,0.0165,True
+F-ICR_1p0MPa-cnt,ICR_1p0MPa: cnt effect,0.5344385491859285,0.53,0.011,True
+F-ICR_1p0MPa-cnt-lo,ICR_1p0MPa: cnt CI lower,0.5001392214564658,0.5,0.0165,True
+F-ICR_1p0MPa-cnt-hi,ICR_1p0MPa: cnt CI upper,0.5710901097182238,0.57,0.0165,True
+F-ICR_1p0MPa-interaction,ICR_1p0MPa: interaction effect,0.6635048406396171,0.66,0.011,True
+F-ICR_1p0MPa-interaction-lo,ICR_1p0MPa: interaction CI lower,0.5810725641770034,0.58,0.0165,True
+F-ICR_1p0MPa-interaction-hi,ICR_1p0MPa: interaction CI upper,0.7576311474552779,0.76,0.0165,True
+F-ICR_1p0MPa-eta2,ICR_1p0MPa: eta^2,0.9909349066196531,0.99,0.006,True
+F-sigma_MS_per_m-p,sigma_MS_per_m: interaction p,0.020711387488081094,0.021,0.0015,True
+F-sigma_MS_per_m-pHolm,sigma_MS_per_m: Holm-adjusted p,0.04142277497616219,0.041,0.0025,True
+F-hardness_HV-p,hardness_HV: interaction p,0.37799434750379496,0.378,0.0015,True
+F-hardness_HV-pHolm,hardness_HV: Holm-adjusted p,0.37799434750379496,0.378,0.0025,True
+F-Rct-p,Rct: interaction p,0.008456701131142311,0.008,0.0015,True
+F-Rct-pHolm,Rct: Holm-adjusted p,0.025370103393426935,0.025,0.0025,True
+F-Icorr-p,Icorr: interaction p,0.002544058945898081,0.003,0.0015,True
+F-Icorr-pHolm,Icorr: Holm-adjusted p,0.010176235783592323,0.01,0.0025,True
+F-ICR_1p0MPa-p<0.001,ICR_1p0MPa: interaction p < 0.001,1.0,1.0,0.0,True
+E-Ceff-S1,Brug Ceff S1 (uF/cm2),5.986921752049865,6.0,0.06,True
+E-Ceff-S2,Brug Ceff S2 (uF/cm2),6.353873663000407,6.3,0.06,True
+E-Ceff-S3,Brug Ceff S3 (uF/cm2),5.998930661539268,6.0,0.06,True
+E-Ceff-S4,Brug Ceff S4 (uF/cm2),6.209462049195808,6.2,0.06,True
+E-thick,"Film thickness at C = 6 uF/cm2, eps = 10 (nm)",1.4756666666666665,1.5,0.05,True
+L-ratio-S1,Rct/Rp S1,1.090473337327741,1.09,0.006,True
+L-B-S1,Rp*Icorr S1 (mV),7.99451,8.0,0.06,True
+L-ba-S1,implied beta_a S1 (mV/dec),21.765771442072932,22.0,0.6,True
+L-ratio-S2,Rct/Rp S2,1.0211706102117062,1.02,0.006,True
+L-B-S2,Rp*Icorr S2 (mV),8.72058,8.7,0.06,True
+L-ba-S2,implied beta_a S2 (mV/dec),24.052002773001053,24.0,0.6,True
+L-ratio-S3,Rct/Rp S3,1.0927152317880795,1.09,0.006,True
+L-B-S3,Rp*Icorr S3 (mV),8.2446,8.2,0.06,True
+L-ba-S3,implied beta_a S3 (mV/dec),22.41154166427666,23.0,0.6,True
+L-ratio-S4,Rct/Rp S4,1.0131195335276968,1.01,0.006,True
+L-B-S4,Rp*Icorr S4 (mV),7.902719999999999,7.9,0.06,True
+L-ba-S4,implied beta_a S4 (mV/dec),21.445077563962155,21.0,0.6,True
+I-1.4-S1,ICR at 1.4 MPa S1,3.5540997434441137,3.55,0.006,True
+I-b-S1,secant exponent b S1,0.5794035184790786,0.58,0.006,True
+I-1.4-S2,ICR at 1.4 MPa S2,2.554411464222047,2.55,0.006,True
+I-b-S2,secant exponent b S2,0.579272969655911,0.58,0.006,True
+I-1.4-S3,ICR at 1.4 MPa S3,2.3354441150057323,2.33,0.006,True
+I-b-S3,secant exponent b S3,0.577395070722381,0.58,0.006,True
+I-1.4-S4,ICR at 1.4 MPa S4,1.1102429400210472,1.11,0.006,True
+I-b-S4,secant exponent b S4,0.5793488730095292,0.58,0.006,True
+T-Ea-S1,Ea from 25/80 C two-point S1 (kJ/mol),24.779738494885027,24.7,0.5,True
+T-ratio-S1,Rct(80)/Rct(25) S1,0.2108108108108108,0.21,0.006,True
+T-Ea-S2,Ea from 25/80 C two-point S2 (kJ/mol),27.52457169742121,27.6,0.5,True
+T-ratio-S2,Rct(80)/Rct(25) S2,0.1774193548387097,0.18,0.006,True
+T-Ea-S3,Ea from 25/80 C two-point S3 (kJ/mol),26.511748174625993,26.1,0.5,True
+T-ratio-S3,Rct(80)/Rct(25) S3,0.18907563025210086,0.19,0.006,True
+T-Ea-S4,Ea from 25/80 C two-point S4 (kJ/mol),33.68477281985925,33.7,0.5,True
+T-ratio-S4,Rct(80)/Rct(25) S4,0.12048192771084336,0.12,0.006,True
+W01,Cu volume fraction (%),1.7810486650948416,1.8,0.1,True
+W02,CNT volume fraction (%),1.1358146647152871,1.1,0.1,True
+W03,Wiener upper bound (MS/m),18.478789851062192,18.5,0.1,True
+W04,Wiener bound vs S1 (%),9.992796732513053,10.0,1.0,True
+SC-S1,Composite score S1 (geometric mean of value/best),0.4946977525718962,0.49,0.015,True
+SC-S2,Composite score S2 (geometric mean of value/best),0.6343910092409631,0.63,0.015,True
+SC-S3,Composite score S3 (geometric mean of value/best),0.6147920597631198,0.61,0.015,True
+SC-S4,Composite score S4 (geometric mean of value/best),1.0,1.0,0.015,True
+H01,Max hypervolume 1.05^4,1.2155062500000002,1.22,0.005,True
+H02,1.19 / 1.05^4 (% of maximum),97.90159450023394,98.0,0.5,True
