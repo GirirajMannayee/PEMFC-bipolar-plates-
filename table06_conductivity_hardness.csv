@@ -1,0 +1,5 @@
+sample,sigma_MS_per_m_mean,sigma_MS_per_m_sd,sigma_1e5_S_per_cm,pct_IACS,sigma_tukey_group,hardness_HV_mean,hardness_HV_sd,hardness_tukey_group,n
+S1,16.8,0.4,1.68,29,d,92,3,c,3
+S2,20.7,0.5,2.07,36,b,104,3,b,3
+S3,19.1,0.4,1.91,33,c,101,2,b,3
+S4,24.6,0.6,2.46,42,a,116,3,a,3

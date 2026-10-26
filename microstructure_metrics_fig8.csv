@@ -1,0 +1,5 @@
+sample,cu_rich_particle_size_um_mean,cu_rich_particle_size_um_sd,cu_rich_area_fraction_pct_mean,cu_rich_area_fraction_pct_sd,cnt_cluster_area_fraction_pct_mean,cnt_cluster_area_fraction_pct_sd,porosity_fraction_pct_mean,porosity_fraction_pct_sd
+S1,1.2,0.4,0.8,0.3,,,0.6,0.2
+S2,1.6,0.5,2.6,0.7,,,0.9,0.3
+S3,2.1,0.7,5.1,1.2,4.8,1.2,1.3,0.4
+S4,2.8,0.9,7.5,1.4,6.7,1.6,1.8,0.6

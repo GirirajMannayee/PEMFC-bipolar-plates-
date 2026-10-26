@@ -1,0 +1,9 @@
+property,doe_2020_target,S4_value,status
+electrical_conductivity,>100 S/cm,2.46e5 S/cm,met (does not discriminate; S1 also exceeds target)
+corrosion_current_density,<1 uA/cm2,1.9 uA/cm2 (0.5 M H2SO4 25 degC),not met in screening
+areal_specific_resistance_contact,<10 mOhm cm2 at ~138 N/cm2,1.11 mOhm cm2 at 1.4 MPa (per interface),met for contact term
+flexural_strength,>25 MPa,not measured,not assessed
+h2_permeation,below DOE limit,not measured,not assessed
+plate_weight_cost,DOE 2020 values,not quantified,not assessed
+temperature_stability,stable at 80 degC,Rct ratio 80/25 = 0.12,advantage narrows
+post_exposure_surface,no severe pitting,not measured,not assessed

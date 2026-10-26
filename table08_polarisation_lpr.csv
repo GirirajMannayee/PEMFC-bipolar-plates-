@@ -1,0 +1,5 @@
+sample,Ecorr_V_vs_AgAgCl_mean,Ecorr_V_sd,Icorr_uA_cm2_mean,Icorr_uA_cm2_sd,beta_c_mV_dec,beta_a_mV_dec_derived,Rp_ohm_cm2,RpIcorr_mV,i_at_Ecorr_plus_0p10V_uA_cm2,Eb_minus_Ecorr_V,n
+S1,-0.690,0.018,4.79,0.32,120,22,1669,8.0,88,0.31,3
+S2,-0.655,0.015,3.62,0.35,120,24,2409,8.7,55,0.36,3
+S3,-0.675,0.017,3.90,0.30,120,23,2114,8.2,63,0.34,3
+S4,-0.625,0.013,1.92,0.19,120,21,4116,7.9,25,0.57,3

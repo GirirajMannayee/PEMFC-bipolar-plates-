@@ -1,0 +1,5 @@
+candidate,cu_wt_pct,cnt_wt_pct,stirring_rpm,sigma_MS_per_m,sigma_lo,sigma_hi,Rct_kohm_cm2,Rct_lo,Rct_hi,Icorr_uA_cm2,Icorr_lo,Icorr_hi,ICR_1p0MPa_mOhm_cm2,ICR_lo,ICR_hi
+Balanced,5.12,1.03,507,25.5,24.7,26.3,4.12,3.60,4.73,1.72,1.48,2.01,1.11,1.02,1.20
+Conductivity-priority,5.49,1.10,530,25.7,24.9,26.5,3.96,3.45,4.54,1.79,1.53,2.09,1.08,0.99,1.17
+Corrosion-priority,4.64,1.00,511,25.2,24.4,26.0,4.18,3.64,4.81,1.67,1.43,1.95,1.13,1.04,1.23
+S4 (GP prediction),5.62,0.70,500,24.5,,,4.16,,,2.03,,,1.36,,

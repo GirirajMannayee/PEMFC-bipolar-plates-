@@ -1,0 +1,5 @@
+sample,designation,adc12_wt_pct,cu_added_wt_pct,cnt_wt_pct,purpose
+S1,ADC12,100.00,0,0,Base-alloy control
+S2,ADC12-Cu,94.38,5.62,0,Cu effect
+S3,ADC12-CNT,99.30,0,0.70,CNT effect
+S4,ADC12-Cu-CNT,93.68,5.62,0.70,Hybrid composition

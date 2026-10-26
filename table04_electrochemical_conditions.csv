@@ -1,0 +1,13 @@
+parameter,condition
+cell,three-electrode
+reference_electrode,Ag/AgCl (3 M KCl)
+counter_electrode,Pt mesh
+electrolyte,0.5 M H2SO4 (naturally aerated)
+temperature,25 degC (EIS also 40 60 80 degC)
+exposed_area,~1 cm2
+eis_frequency_range,100 kHz-10 mHz
+ac_amplitude,10 mV rms at OCP
+points_per_decade,10
+polarisation_window,-0.25 to +1.0 V vs OCP
+scan_rate,1 mV/s
+replicates,n=3 per material

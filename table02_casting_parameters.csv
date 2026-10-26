@@ -1,0 +1,13 @@
+parameter,value,unit
+melt_temperature,730 +/- 10,degC
+cu_preheat,400,degC
+cnt_preheat,400 (1 h),degC
+batch_mass_S4_only,1281,g
+stirring_speed,500,rpm
+stirring_time,8,min
+degassing_time,3,min
+mould_temperature_steel,200,degC
+cooling,air,-
+S4_batch_ADC12,1200,g
+S4_batch_Cu,72,g
+S4_batch_CNT,9,g
